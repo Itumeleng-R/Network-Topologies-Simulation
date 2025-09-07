@@ -7,19 +7,22 @@ This project demonstrates the design, simulation, and configuration of different
 It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, and a hybrid topology with enhanced features.
 
 ## 🖧 Implemented Topologies
-1. Bus Topology
-2. Star Topology
-3. Ring Topology
-4. Mesh Topology
-5. Extended Star Topology
-6. Hybrid Topology (with VLAN, IPv4, IPv6, HTTP/DNS/DHCP servers, security)
+| Topology        | Status ✅ |
+|-----------------|-----------|
+| 🚌 **Bus**      | Implemented |
+| ⭐ **Star**     | Implemented |
+| 🔄 **Ring**     | Implemented |
+| 🔗 **Mesh**     | Implemented |
+| 🌟 **Extended Star** | Implemented |
+| ⚡ **Hybrid (IPv4 + IPv6, VLAN, Servers, Security)** | Implemented |
 
-## 📂 Repository Structure
-- `docs/` → Documentation (IP plans, configuration notes, reports)  
-- `simulations/` → Cisco Packet Tracer `.pkt` files  
-- `screenshots/` → Network diagrams & simulation results  
-- `subnetting/` → Subnetting plans and configurations  
-- `video/` → Video demonstration link  
+📁 Network-Topologies-Simulation/
+├── 📄 README.md
+├── 📁 docs/               # Documentation (IP tables, configs, reports)
+├── 📁 simulations/        # Cisco Packet Tracer .pkt files
+├── 📁 screenshots/        # Network diagrams & results
+├── 📁 subnetting/         # Subnetting plans & configs
+└── 📁 video/              # Demo video link
 
 ## ⚙️ Features Configured
 - IPv4 & IPv6 addressing  
