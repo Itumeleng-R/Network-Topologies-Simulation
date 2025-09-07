@@ -17,6 +17,7 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 | ⚡ **Hybrid (IPv4 + IPv6, VLAN, Servers, Security)** | Implemented |
 
 📁 Network-Topologies-Simulation/
+
 ├── 📄 README.md
 ├── 📁 docs/               # Documentation (IP tables, configs, reports)
 ├── 📁 simulations/        # Cisco Packet Tracer .pkt files
