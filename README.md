@@ -40,8 +40,16 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 📺 [Watch the demo here](video/demo-link.md) (To be uploaded)
 
 ---
+📑 Documentation
+
+📘 IP Addressing Tables
+
+⚙️ Configurations
+
+📝 Report
 
 ## 👨‍💻 Author
 - Itumeleng
 - University: 41905083 
-- Course: CMPG325 
+- Course: CMPG325
+- ✉️ Contact: twalareagile@gmail.com
