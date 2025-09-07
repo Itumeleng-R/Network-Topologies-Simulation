@@ -19,10 +19,15 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 📁 Network-Topologies-Simulation/
 
 ├── 📄 README.md
-├── 📁 docs/               # Documentation (IP tables, configs, reports)
-├── 📁 simulations/        # Cisco Packet Tracer .pkt files
-├── 📁 screenshots/        # Network diagrams & results
-├── 📁 subnetting/         # Subnetting plans & configs
+
+├── 📁 docs/  
+# Documentation (IP tables, configs, reports)
+├── 📁 simulations/ 
+# Cisco Packet Tracer .pkt files
+├── 📁 screenshots/ 
+# Network diagrams & results
+├── 📁 subnetting/   
+# Subnetting plans & configs
 └── 📁 video/              # Demo video link
 
 ## ⚙️ Features Configured
