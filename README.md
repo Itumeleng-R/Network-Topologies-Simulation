@@ -33,6 +33,6 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 ---
 
 ## 👨‍💻 Author
-- **Your Name**
-- University: [Your University Name]  
-- Course: [Course Code / Module]  
+- ITUMELENG
+- University: 41905083 
+- Course: CMPG325 
