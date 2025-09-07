@@ -36,6 +36,6 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 ---
 
 ## 👨‍💻 Author
-- ITUMELENG
+- Itumeleng
 - University: 41905083 
 - Course: CMPG325 
