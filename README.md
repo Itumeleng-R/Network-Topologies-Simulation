@@ -50,6 +50,6 @@ It covers IPv4/IPv6 configuration, VLAN segmentation, server setup, subnetting, 
 
 ## 👨‍💻 Author
 - Itumeleng
-- University: 41905083 
+- University: North-west University 
 - Course: CMPG325
 - ✉️ Contact: twalareagile@gmail.com
