@@ -1,0 +1,17 @@
+enable
+conf t
+hostname Server-Router
+interface gig0/0
+ip address 192.168.99.253 255.255.255.0
+ipv6 address 2001:DB8:3C4D:99::253/64
+no shutdown
+exit
+
+interface gig0/1
+ip address 192.168.100.1 255.255.255.0
+ipv6 address 2001:DB8:3C4D:100::1/64
+no shutdown
+exit
+
+ip routing
+ipv6 unicast-routing
