@@ -1,0 +1,30 @@
+Switch(config)# vlan 10
+Switch(config-vlan)# name Faculty
+Switch(config-vlan)# vlan 20
+Switch(config-vlan)# name Students
+Switch(config-vlan)# exit
+Switch(config)# interface range f0/1-3
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 10
+Switch(config)# interface range f0/4-6
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 20
+Switch(config)# interface g0/1
+Switch(config-if)# switchport mode trunk
+
+
+Router(config)# interface g0/0.10
+Router(config-subif)# encapsulation dot1Q 10
+Router(config-subif)# ip address 192.168.3.1 255.255.255.0
+Router(config)# interface g0/0.20
+Router(config-subif)# encapsulation dot1Q 20
+Router(config-subif)# ip address 192.168.3.65 255.255.255.192
+Router(config)# no shutdown
+
+Switch(config)# enable secret class
+Switch(config)# line console 0
+Switch(config-line)# password cisco
+Switch(config-line)# login
+Switch(config-line)# exit
+Switch(config)# service password-encryption
+Switch(config)# banner motd # Unauthorized Access is Prohibited! #

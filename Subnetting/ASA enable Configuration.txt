@@ -1,0 +1,24 @@
+ASA> enable
+Password: cisco
+ASA# configure terminal
+ASA(config)# interface g0/0
+ASA(config-if)# nameif inside
+ASA(config-if)# security-level 100
+ASA(config-if)# ip address 192.168.99.254 255.255.255.0
+ASA(config-if)# no shutdown
+
+ASA(config)# interface g0/1
+ASA(config-if)# nameif outside
+ASA(config-if)# security-level 0
+ASA(config-if)# ip address dhcp setroute
+ASA(config-if)# no shutdown
+
+! DHCP for internal clients
+ASA(config)# dhcpd address 192.168.99.10-192.168.99.50 inside
+ASA(config)# dhcpd enable inside
+ASA(config)# dhcpd dns 192.168.99.2
+ASA(config)# dhcpd domain university.local
+
+! Allow internal traffic out
+ASA(config)# access-list OUTBOUND extended permit ip any any
+ASA(config)# access-group OUTBOUND in interface inside

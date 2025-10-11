@@ -1,0 +1,26 @@
+Switch> enable
+Switch# configure terminal
+Switch(config)# vlan 10
+Switch(config-vlan)# name FACULTY
+Switch(config)# vlan 20
+Switch(config-vlan)# name STUDENTS
+Switch(config)# vlan 30
+Switch(config-vlan)# name GUEST
+Switch(config)# vlan 50
+Switch(config-vlan)# name STAFF
+Switch(config)# vlan 99
+Switch(config-vlan)# name MANAGEMENT
+Switch(config)# exit
+
+! Assign VLANs to access ports
+Switch(config)# interface range f0/1-5
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 10
+Switch(config-if-range)# exit
+
+! Trunk ports to core mesh switches
+Switch(config)# interface g0/1
+Switch(config-if)# switchport mode trunk
+Switch(config-if)# switchport trunk native vlan 99
+Switch(config-if)# switchport trunk allowed vlan all
+Switch(config-if)# exit
