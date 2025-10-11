@@ -1,0 +1,27 @@
+## 🌐 Subnetting Configuration
+
+The hybrid network topology uses **subnetting** to organize IPv4 and IPv6 addressing efficiently across five major VLANs and topologies.
+
+### 🧩 Addressing Scheme
+
+| VLAN | Department | Topology | IPv4 Subnet | IPv6 Subnet | Devices |
+|------|-------------|-----------|--------------|--------------|----------|
+| 10 | Faculty | Ring | 192.168.10.0/24 | 2001:DB8:3C4D:10::/64 | 5 PCs |
+| 20 | Students | Star | 192.168.20.0/24 | 2001:DB8:3C4D:20::/64 | 8 PCs |
+| 30 | Guest | Mesh | 192.168.30.0/24 | 2001:DB8:3C4D:30::/64 | 4 PCs |
+| 50 | Staff | Bus | 192.168.50.0/24 | 2001:DB8:3C4D:50::/64 | 4 PCs |
+| 99 | Management & Native | Extended Star | 192.168.99.0/24 | 2001:DB8:3C4D:99::/64 | 12 PCs |
+
+---
+
+### ⚙️ IPv4 Subnet Plan
+
+Each VLAN is assigned a **/24 IPv4 subnet** for simplicity and separation.  
+The router-on-a-stick configuration enables inter-VLAN routing and dual-stack communication.
+
+Example:
+```bash
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+ ipv6 address 2001:DB8:3C4D:10::1/64
