@@ -1,7 +1,0 @@
-enable
-conf t
-hostname Backbone-SW1
-interface range gig0/1 - 6
-switchport mode trunk
-switchport trunk allowed vlan all
-exit
