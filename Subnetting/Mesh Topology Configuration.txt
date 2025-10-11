@@ -1,0 +1,30 @@
+Router1(config)# interface g0/0
+Router1(config-if)# ip address 10.0.0.1 255.255.255.252
+Router1(config-if)# no shutdown
+Router1(config)# interface g0/1
+Router1(config-if)# ip address 10.0.0.5 255.255.255.252
+Router1(config-if)# no shutdown
+
+
+Router2(config)# interface g0/0
+Router2(config-if)# ip address 10.0.0.2 255.255.255.252
+Router2(config-if)# no shutdown
+Router2(config)# interface g0/1
+Router2(config-if)# ip address 10.0.0.9 255.255.255.252
+Router2(config-if)# no shutdown
+
+
+Router3(config)# interface g0/0
+Router3(config-if)# ip address 10.0.0.6 255.255.255.252
+Router3(config-if)# no shutdown
+Router3(config)# interface g0/1
+Router3(config-if)# ip address 10.0.0.10 255.255.255.252
+Router3(config-if)# no shutdown
+
+Switch(config)# enable secret class
+Switch(config)# line console 0
+Switch(config-line)# password cisco
+Switch(config-line)# login
+Switch(config-line)# exit
+Switch(config)# service password-encryption
+Switch(config)# banner motd # Unauthorized Access is Prohibited! #

@@ -1,0 +1,21 @@
+Switch1(config)# spanning-tree mode pvst
+Switch1(config)# interface range f0/1-2
+Switch1(config-if-range)# switchport mode trunk
+
+Switch2(config)# interface range f0/1-2
+Switch2(config-if-range)# switchport mode trunk
+
+Switch3(config)# interface range f0/1-2
+Switch3(config-if-range)# switchport mode trunk
+
+Switch4(config)# interface range f0/1-2
+Switch4(config-if-range)# switchport mode trunk
+
+
+Switch(config)# enable secret class
+Switch(config)# line console 0
+Switch(config-line)# password cisco
+Switch(config-line)# login
+Switch(config-line)# exit
+Switch(config)# service password-encryption
+Switch(config)# banner motd # Unauthorized Access is Prohibited! #
