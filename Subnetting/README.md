@@ -33,10 +33,15 @@ The subnetting plan here supports:
 
 📦 subnetting/
 ┣ 📜 README.md
+
 ┣ 📄 IPv4_Subnetting_Config.txt
+
 ┣ 📄 IPv6_Subnetting_Config.txt
+
 ┣ 📊 Subnet_Calculations.xlsx
+
 ┣ 🧾 IP_Plan_Report.pdf
+
 ┗ 🖼️ Subnet_Plan_Diagram.png
 
 yaml
