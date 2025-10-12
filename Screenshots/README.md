@@ -1,35 +1,43 @@
-# 📘 Documentation Folder
+# 🖼️ Network Simulation Screenshots
 
-This folder contains all technical reports, IP addressing plans, and subnetting documentation for the **Network Topologies Simulation Project**.
+This folder contains **visual documentation** of all network topologies, configurations, and simulation results from the **Network Topologies Simulation Project** in Cisco Packet Tracer.
 
----
-
-## 🧩 Contents
-
-### 🖧 **Individual Topology IP Plans**
-| Topology | File | Description |
-|-----------|------|-------------|
-| 🚌 **Bus Topology** | `Bus_Topology_IP_Plan.docx` | IPv4 and IPv6 addressing plan, interface mapping, and device configurations. |
-| ⭐ **Star Topology** | `Star_Topology_IP_Plan.docx` | Central switch setup with connected hosts and IP allocations. |
-| 🔄 **Ring Topology** | `Ring_Topology_IP_Plan.docx` | Sequential connection setup with IP routing and addressing scheme. |
-| 🔗 **Mesh Topology** | `Mesh_Topology_IP_Plan.docx` | Redundant connection layout and fault-tolerant addressing. |
-| 🌟 **Extended Star** | `Extended_Star_Topology_IP_Plan.docx` | VLAN segmentation and hierarchical addressing. |
-| ⚡ **Hybrid Topology** | `Hybrid_Topology_IP_Plan.docx` | Combined topology with IPv4/IPv6, VLAN, DHCP/DNS, and security configuration. |
+Each image provides a visual summary of a specific topology setup, addressing plan, or simulation test result.
 
 ---
 
-### 📑 **Reports**
-| Part | Document | Description |
-|------|-----------|-------------|
-| 🧭 **Part 1** | `Part1_Network_Topologies_Report.docx` | Overview of network design, topology configuration, and objectives. |
-| 🌐 **Part 2** | `Part2_IP_Addressing_and_Subnetting_Report.docx` | Complete IP plan, subnetting analysis, and hybrid topology details. |
+## 📸 Screenshot Index
+
+| Screenshot | Description |
+|-------------|--------------|
+| 🚌 **Bus_Topology.png** | Shows the Bus topology design and connected devices with IP configurations. |
+| ⭐ **Star_Topology.png** | Displays the central switch and all connected hosts in the Star topology. |
+| 🔄 **Ring_Topology.png** | Visual representation of the Ring topology and its interface connections. |
+| 🔗 **Mesh_Topology.png** | Demonstrates the redundant connections in the Mesh topology layout. |
+| 🌟 **Extended_Star_Topology.png** | Highlights the hierarchical Star topology with VLAN segments. |
+| ⚡ **Hybrid_Topology.png** | Shows the complete hybrid setup with IPv4/IPv6 configuration, VLANs, and servers. |
+| 🧮 **Subnetting_Configuration.png** | Displays subnetting tables and address range configurations for IPv4 and IPv6. |
+| 🌍 **Server_Setup.png** | Shows DHCP, DNS, and HTTP server configurations in Packet Tracer. |
+| 🔐 **Security_Config.png** | Demonstrates basic network security features (e.g., ACLs, password setup). |
 
 ---
 
-## ⚙️ Usage Instructions
-1. Open any `.docx` file using Microsoft Word or LibreOffice Writer.  
-2. Each document includes network diagrams, device addressing, and configuration steps.  
-3. Use these documents alongside `.pkt` simulation files for lab testing.
+## 🧭 Folder Purpose
+
+The screenshots provide **evidence of successful implementation** of:
+- IPv4 and IPv6 network configurations  
+- VLAN segmentation and inter-VLAN routing  
+- Subnetting and addressing verification  
+- Server and security setup  
+- Full hybrid topology simulation  
+
+---
+
+## ⚙️ Usage Guide
+
+1. Use the screenshots to reference your topology layout during configuration.  
+2. Include these images when writing your report or presenting your project.  
+3. Each image name matches its respective `.pkt` simulation file or `.docx` report in the `/docs` folder.
 
 ---
 
@@ -40,4 +48,4 @@ This folder contains all technical reports, IP addressing plans, and subnetting 
 
 ---
 
-> “Design once, configure everywhere — networking is not just topology, it's strategy.” 🌍
+> “A good network isn’t just built — it’s visualized, tested, and documented.” 💡
