@@ -70,7 +70,6 @@ A secondary subnet hosts:
 - 🧠 2 Switches connected to a Router
 - 💻 2 PCs and 2 Laptops per switch
 
-![Hybrid Topology](Screenshots/Part I/Screenshot-2025-10-13-153913.png)
 ---
 
 ## 🧮 **Subnetting Summary**
