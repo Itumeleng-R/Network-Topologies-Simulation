@@ -117,8 +117,42 @@ Router(config-subif)# encapsulation dot1Q 10
 Router(config-subif)# ip address 192.168.10.1 255.255.255.0
 Router(config-subif)# ipv6 address 2001:DB8:3C4D:10::1/64
 
-✅ Testing & Verification | Test | Result | | ------------------------ | ------------ | | IPv4 Inter-VLAN Ping | ✅ Successful | | IPv6 Global Unicast Ping | ✅ Successful | | DHCP Address Assignment | ✅ Working | | DNS & HTTP Server Access | ✅ Verified | | Firewall Security Filter | ✅ Configured |
+✅ Testing & Verification
+| Test                     | Result       |
+| ------------------------ | ------------ |
+| IPv4 Inter-VLAN Ping     | ✅ Successful |
+| IPv6 Global Unicast Ping | ✅ Successful |
+| DHCP Address Assignment  | ✅ Working    |
+| DNS & HTTP Server Access | ✅ Verified   |
+| Firewall Security Filter | ✅ Configured |
 
-📸 Screenshot Highlights | Category | Screenshot | Description | | ------------------ | ----------------------------------------------------- | ------------------------ | | 🧩 Hybrid Overview | ![Hybrid Topology](./screenshots/hybrid_topology.png) | Full hybrid view | | 🔌 VLAN Config | ![VLAN Config](./screenshots/vlan_config.png) | VLAN assignments | | 🌍 IPv6 Setup | ![IPv6 Config](./screenshots/ipv6_config.png) | Dual-stack setup | | 🖥️ DHCP Test | ![DHCP Test](./screenshots/dhcp_test.png) | Successful IP allocation | | 📊 Subnet Plan | ![Subnet Plan](./screenshots/subnet_plan.png) | IPv4/IPv6 subnet tables |
+📸 Screenshot Highlights
+| Category           | Screenshot                                            | Description              |
+| ------------------ | ----------------------------------------------------- | ------------------------ |
+| 🧩 Hybrid Overview | ![Hybrid Topology](./screenshots/hybrid_topology.png) | Full hybrid view         |
+| 🔌 VLAN Config     | ![VLAN Config](./screenshots/vlan_config.png)         | VLAN assignments         |
+| 🌍 IPv6 Setup      | ![IPv6 Config](./screenshots/ipv6_config.png)         | Dual-stack setup         |
+| 🖥️ DHCP Test      | ![DHCP Test](./screenshots/dhcp_test.png)             | Successful IP allocation |
+| 📊 Subnet Plan     | ![Subnet Plan](./screenshots/subnet_plan.png)         | IPv4/IPv6 subnet tables  |
 
-## 🎥 Video Demo 📺 [Watch the demo here](video/demo-link.md) (To be uploaded) --- 📑 Documentation 📘 IP Addressing Tables ⚙️ Configurations ## 👨‍💻 Author > 🧑‍💻 *Course:* CMPG 325 – Computer Networks > 🏫 *Institution:* North-West University > 📅 *Submission Date:* 13 October 2025 > 👨‍🎓 *Student:* Itumeleng Twala > ✉️ Contact: twalareagile@gmail.com ✨ “Networks connect devices — design connects possibilities.” </div>
+
+## 🎥 Video Demo
+📺 [Watch the demo here](video/demo-link.md) (To be uploaded)
+
+---
+📑 Documentation
+
+📘 IP Addressing Tables
+
+⚙️ Configurations
+
+## 👨‍💻 Author
+> 🧑‍💻 *Course:* CMPG 325 – Computer Networks  
+> 🏫 *Institution:* North-West University  
+> 📅 *Submission Date:* 13 October 2025  
+> 👨‍🎓 *Student:* Itumeleng Twala
+> ✉️ Contact: twalareagile@gmail.com
+
+✨ “Networks connect devices — design connects possibilities.”
+
+</div> ```
