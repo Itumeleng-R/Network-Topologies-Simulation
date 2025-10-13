@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌐 **Network Topologies Simulation**
-Cisco Packet Tracer project – Network Topologies, Hybrid Design, VLAN, Subnetting, and Configurations  
+Cisco Packet Tracer project – Network Topologies, Hybrid Design, VLAN, Subnetting, and Configurations
 ### *Cisco Packet Tracer | IPv4 & IPv6 | VLAN | Subnetting | Hybrid Design*
 
 ![Network Animation](https://user-images.githubusercontent.com/74316400/216833854-f9a1e1d2-5481-46e3-89f2-12b2a0a6a65c.gif)
@@ -17,12 +17,10 @@ Cisco Packet Tracer project – Network Topologies, Hybrid Design, VLAN, Subnett
 </div>
 
 ---
-
 ## 📌 **Project Overview**
 
 This project demonstrates the design, simulation, and configuration of multiple **network topologies** using **Cisco Packet Tracer**.  
 It includes IPv4/IPv6 configuration, VLAN segmentation, DHCP/DNS/HTTP server setup, and a **hybrid topology** that integrates all designs into one cohesive network.
-
 ---
 
 ## 🖧 **Implemented Topologies**
@@ -46,19 +44,25 @@ It includes IPv4/IPv6 configuration, VLAN segmentation, DHCP/DNS/HTTP server set
 - 🧩 **DHCP, DNS & HTTP** servers configured on Server-PT
 - 🧠 **Subnetting** with detailed IP planning
 - 🧮 **Inter-VLAN Routing** via Router-on-a-Stick
-
 ---
 
 ## 🌈 **Repository Structure**
 
+
 📁 Network-Topologies-Simulation/
 
-├── 📄 README.md  
-├── 📁 docs/  # Documentation (IP tables, configs, reports)  
-├── 📁 simulations/ # Cisco Packet Tracer .pkt files  
-├── 📁 screenshots/ # Network diagrams & results  
-├── 📁 subnetting/  # Subnetting plans & configs  
-└── 📁 video/       # Demo video link  
+├── 📄 README.md
+
+├── 📁 docs/  # Documentation (IP tables, configs, reports)
+
+├── 📁 simulations/ # Cisco Packet Tracer .pkt files
+
+├── 📁 screenshots/ # Network diagrams & results
+
+├── 📁 subnetting/  # Subnetting plans & configs
+
+└── 📁 video/       # Demo video link
+
 
 ---
 
@@ -73,7 +77,6 @@ A secondary subnet hosts:
 ![Hybrid Topology](./screenshots/hybrid_topology.png)
 
 ---
-
 ## 🧮 **Subnetting Summary**
 
 | VLAN | Department | Topology | IPv4 Subnet | IPv6 Subnet | Devices |
@@ -83,22 +86,6 @@ A secondary subnet hosts:
 | 30 | Guests | Mesh | 192.168.30.0/24 | 2001:DB8:3C4D:30::/64 | 4 |
 | 50 | Staff | Bus | 192.168.50.0/24 | 2001:DB8:3C4D:50::/64 | 4 |
 | 99 | Management | Extended Star | 192.168.99.0/24 | 2001:DB8:3C4D:99::/64 | 12 |
-
----
-
-## 🗓️ **Project Timeline & PND**
-
-Below is the **Mini-Networking Project 2025** timeline represented through a detailed **Project Network Diagram (PND)**.  
-It outlines major milestones, dependencies, and the final submission date (**October 13, 2025**).
-
-#### 📊 Project Network Diagram (PND)
-![Mini-Networking Project 2025 PND](./Screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg)
-
-> **Legend:**
-> - 🟦 **Task** – Represents each project stage.  
-> - 🔶 **Checkpoint (Milestone)** – Marks completion of a key topology or test.  
-> - ❌ **Critical Deadline** – Indicates submission or non-negotiable target dates.  
-> - ➡️ **Dependencies** – Show the order and relationship of tasks.
 
 ---
 
@@ -134,7 +121,6 @@ Router(config-subif)# ipv6 address 2001:DB8:3C4D:10::1/64
 | 🌍 IPv6 Setup      | ![IPv6 Config](./screenshots/ipv6_config.png)         | Dual-stack setup         |
 | 🖥️ DHCP Test      | ![DHCP Test](./screenshots/dhcp_test.png)             | Successful IP allocation |
 | 📊 Subnet Plan     | ![Subnet Plan](./screenshots/subnet_plan.png)         | IPv4/IPv6 subnet tables  |
-
 
 
 ## 🎥 Video Demo
