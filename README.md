@@ -86,12 +86,12 @@ A secondary subnet hosts:
 
 ---
 
-## 🗓️ **Project Timeline & PND**
+## 🗓️ **Project Timeline**
 
 Below is the **Mini-Networking Project 2025** timeline represented through a detailed **Project Network Diagram (PND)**.  
 It outlines major milestones, dependencies, and the final submission date (**October 13, 2025**).
 
-#### 📊 Project Network Diagram (PND)
+#### 📊 Project Network Diagram
 ![Mini-Networking Project 2025 PND](https://github.com/Itumeleng-R/Network-Topologies-Simulation/blob/main/Screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg))
 
 > **Legend:**
