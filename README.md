@@ -142,15 +142,15 @@ Router(config-subif)# ipv6 address 2001:DB8:3C4D:10::1/64
 
 ---
 
-**📑Documentation**
+📑 Documentation
 
-**📘IP Addressing Tables**
+📘 IP Addressing Tables
 
-**⚙️Configurations**
+⚙️ Configurations
 
 ---
 
-## **👨‍💻 Author**
+## 👨‍💻 Author
 > 🧑‍💻 *Course:* CMPG 325 – Computer Networks  
 > 🏫 *Institution:* North-West University  
 > 📅 *Submission Date:* 13 October 2025  
