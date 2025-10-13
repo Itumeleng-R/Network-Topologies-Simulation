@@ -92,7 +92,7 @@ Below is the **Mini-Networking Project 2025** timeline represented through a det
 It outlines major milestones, dependencies, and the final submission date (**October 13, 2025**).
 
 #### 📊 Project Network Diagram (PND)
-![Mini-Networking Project 2025 PND](./screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg)
+![Mini-Networking Project 2025 PND](./Screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg)
 
 > **Legend:**
 > - 🟦 **Task** – Represents each project stage.  
@@ -136,16 +136,19 @@ Router(config-subif)# ipv6 address 2001:DB8:3C4D:10::1/64
 | 📊 Subnet Plan     | ![Subnet Plan](./screenshots/subnet_plan.png)         | IPv4/IPv6 subnet tables  |
 
 
+---
+
 ##🎥 Video Demo
 📺 [Watch the demo here](video/demo-link.md) (To be uploaded)
 
 ---
+
 📑 Documentation
-
 📘 IP Addressing Tables
-
 ⚙️ Configurations
+
 ---
+
 ## 👨‍💻 Author
 > 🧑‍💻 *Course:* CMPG 325 – Computer Networks  
 > 🏫 *Institution:* North-West University  
