@@ -92,7 +92,7 @@ Below is the **Mini-Networking Project 2025** timeline represented through a det
 It outlines major milestones, dependencies, and the final submission date (**October 13, 2025**).
 
 #### 📊 Project Network Diagram (PND)
-![Mini-Networking Project 2025 PND](./screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg)
+![Mini-Networking Project 2025 PND](https://github.com/Itumeleng-R/Network-Topologies-Simulation/blob/main/Screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg))
 
 > **Legend:**
 > - 🟦 **Task** – Represents each project stage.  
