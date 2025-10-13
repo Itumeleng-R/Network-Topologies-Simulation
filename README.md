@@ -86,12 +86,12 @@ A secondary subnet hosts:
 
 ---
 
-## 🗓️ **Project Timeline &**
+## 🗓️ **Project Timeline & PND**
 
 Below is the **Mini-Networking Project 2025** timeline represented through a detailed **Project Network Diagram (PND)**.  
 It outlines major milestones, dependencies, and the final submission date (**October 13, 2025**).
 
-#### 📊 Project Network Diagram
+#### 📊 Project Network Diagram (PND)
 ![Mini-Networking Project 2025 PND](./screenshots/4e0e5b53-3cbd-4ad8-95bf-3144c6295a57.jpg)
 
 > **Legend:**
@@ -116,3 +116,38 @@ Router(config)# interface g0/0.10
 Router(config-subif)# encapsulation dot1Q 10
 Router(config-subif)# ip address 192.168.10.1 255.255.255.0
 Router(config-subif)# ipv6 address 2001:DB8:3C4D:10::1/64
+✅ Testing & Verification
+
+Test	Result
+IPv4 Inter-VLAN Ping	✅ Successful
+IPv6 Global Unicast Ping	✅ Successful
+DHCP Address Assignment	✅ Working
+DNS & HTTP Server Access	✅ Verified
+Firewall Security Filter	✅ Configured
+
+📸 Screenshot Highlights
+
+Category	Screenshot	Description
+🧩 Hybrid Overview		Full hybrid view
+🔌 VLAN Config		VLAN assignments
+🌍 IPv6 Setup		Dual-stack setup
+🖥️ DHCP Test		Successful IP allocation
+📊 Subnet Plan		IPv4/IPv6 subnet tables
+
+🎥 Video Demo
+📺 Watch the demo here (To be uploaded)
+
+📑 Documentation
+📘 IP Addressing Tables
+⚙️ Configurations
+
+👨‍💻 Author
+🧑‍💻 Course: CMPG 325 – Computer Networks
+🏫 Institution: North-West University
+📅 Submission Date: 13 October 2025
+👨‍🎓 Student: Itumeleng Twala
+✉️ Contact: twalareagile@gmail.com
+
+✨ “Networks connect devices — design connects possibilities.”
+
+</div> ```
